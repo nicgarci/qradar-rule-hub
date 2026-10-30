@@ -1,5 +1,5 @@
 # QRadar Rule Hub
-As of now, this project only supports dumping QRadar detection rules to local because of QRadar's API limitations. Though this is enough for version history, rule inventory, and could provide advantages for rule logic translation.
+As of now, this project only supports dumping QRadar Use Case Manager CSV report to local rules as code due to QRadar's API limitations. This is enough for version history, rule inventory, and could provide advantages for rule logic translation.
 ## Usage
 The CSV file should meet the following columns:
 - `{N,NO,EN,GR,LST,CD,MD,TD}` (QRadar notation)
